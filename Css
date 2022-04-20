@@ -1,1 +1,591 @@
-img{behavior:expression((this.runtimeStyle.behavior="none")&&(this.pngSet?this.pngSet=true:(this.nodeName == "IMG" && this.src.toLowerCase().indexOf('.png')>-1?(this.runtimeStyle.backgroundImage = "none"https://cdn.statically.io/gh/pawankumarkajlan/apple-icon/79515799bd44f15b0682ebbaaeea86b699e32339/, this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.src + "', sizingMethod='image')", this.src = GetStyleUrl()+"images/spacer.gif"):(this.origBg = this.origBg? this.origBg :this.currentStyle.backgroundImage.toString().replace('url("','').replace('")',''), this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.origBg + "', sizingMethod='crop')", this.runtimeStyle.backgroundImage = "none")),this.pngSet=true))}.nav{zoom:1}.nav .l{width:expression(this.parentNode.offsetWidth-0+'px')}.nav .r{left:expression(this.parentNode.offsetWidth-0+'px')}.nav .r div{left:expression(this.parentNode.offsetWidth-998+'px')}.nav .l,.nav .r div{font-size:1px;background:0 0;behavior:expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + GetStyleUrl()+"images/nav.png',sizingMethod='crop')")}.Block{zoom:1}.header-tag-icon{background:0 0;behavior:expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + GetStyleUrl()+"images/BlockHeaderIcon.png',sizingMethod='crop')")}.Post{zoom:1}h1{margin:.67em 0}h2{margin:.8em 0}h3{margin:1em 0}h4{margin:1.25em 0}h5{margin:1.67em 0}h6{margin:2.33em 0}.Post ul li{height:1%;background:0 0;behavior:expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + GetStyleUrl()+"images/PostBullets.png',sizingMethod='crop')")}a.Button,button.Button{display:list-item;list-style-type:none;float:left}.Button,.Button .btn{font-size:1px}.Button .r{font-size:1px;left:expression(this.parentNode.offsetWidth-14+'px')}.Button .r span{font-size:1px;left:expression(this.parentNode.offsetWidth-417+'px')}.Button .l{font-size:1px;width:expression(this.parentNode.offsetWidth-14+'px')}.Button .l,.Button .r span{background:0 0;behavior:expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + GetStyleUrl()+"images/Button.png',sizingMethod='crop')")}.Footer .Footer-background{top:expression(this.parentNode.offsetHeight-100+'px');background:0 0;behavior:expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + GetStyleUrl()+"images/Footer.png',sizingMethod='crop')");zoom:1;font-size:1px}.rss-tag-icon{zoom:1;font-size:1px;background:0 0;behavior:expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + GetStyleUrl()+"images/rssIcon.png',sizingMethod='crop')")}
+img{behavior:expression((this.runtimeStyle.behavior="none")&&(this.pngSet?this.pngSet=true:(this.nodeName == "IMG" && this.src.toLowerCase().indexOf('.png')>-1?(this.runtimeStyle.backgroundImage = "none"https://cdn.statically.io/gh/pawankumarkajlan/apple-icon/79515799bd44f15b0682ebbaaeea86b699e32339/, this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.src + "', sizingMethod='image')", this.src = GetStyleUrl()+"images/spacer.gif"):(this.origBg = this.origBg? this.origBg :this.currentStyle.backgroundImage.toString().replace('url("','').replace('")',''), this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.origBg + "', sizingMethod='crop')", this.runtimeStyle.backgroundImage = "none")),this.pngSet=true))}.nav{zoom:1}.nav .l{width:expression(this.parentNode.offsetWidth-0+'px')}.nav .r{left:expression(this.parentNode.offsetWidth-0+'px')}.nav .r div{left:expression(this.parentNode.offsetWidth-998+'px')}.nav .l,.nav .r div{font-size:1px;background:0 0;behavior:expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + GetStyleUrl()+"images/nav.png',sizingMethod='crop')")}.Block{zoom:1}.header-tag-icon{background:0 0;behavior:expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + GetStyleUrl()+"images/BlockHeaderIcon.png',sizingMethod='crop')")}.Post{zoom:1}h1{margin:.67em 0}h2{margin:.8em 0}h3{margin:1em 0}h4{margin:1.25em 0}h5{margin:1.67em 0}h6{margin:2.33em 0}.Post ul li{height:1%;background:0 0;behavior:expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + GetStyleUrl()+"images/PostBullets.png',sizingMethod='crop')")}a.Button,button.Button{display:list-item;list-style-type:none;float:left}.Button,.Button .btn{font-size:1px}.Button .r{font-size:1px;left:expression(this.parentNode.offsetWidth-14+'px')}.Button .r span{font-size:1px;left:expression(this.parentNode.offsetWidth-417+'px')}.Button .l{font-size:1px;width:expression(this.parentNode.offsetWidth-14+'px')}.Button .l,.Button .r span{background:0 0;behavior:expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + GetStyleUrl()+"images/Button.png',sizingMethod='crop')")}.Footer .Footer-background{top:expression(this.parentNode.offsetHeight-100+'px');background:0 0;behavior:expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + GetStyleUrl()+"images/Footer.png',sizingMethod='crop')");zoom:1;font-size:1px}.rss-tag-icon{zoom:1;font-size:1px;background:0 0;behavior:expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + GetStyleUrl()+"images/rssIcon.png',sizingMethod='crop')")
+}
+/* begin Page */
+img
+{
+  behavior: expression((this.runtimeStyle.behavior="none")&&(this.pngSet?this.pngSet=true:(this.nodeName == "IMG" && this.src.toLowerCase().indexOf('.png')>-1?(this.runtimeStyle.backgroundImage = "none", this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.src + "', sizingMethod='image')", this.src = GetStyleUrl()+"images/spacer.gif"):(this.origBg = this.origBg? this.origBg :this.currentStyle.backgroundImage.toString().replace('url("','').replace('")',''), this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.origBg + "', sizingMethod='crop')", this.runtimeStyle.backgroundImage = "none")),this.pngSet=true));
+}
+/* end Page */
+
+/* begin Box, Sheet */
+
+.Sheet
+{
+  width: 1000px;
+  zoom: 1;
+}
+
+
+.Sheet-tl
+{
+  font-size: 1px;
+  background: none;
+  behavior: expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + GetStyleUrl()+"images/Sheet-s.png',sizingMethod='crop')");
+}
+
+.Sheet-tr
+{
+  font-size: 1px;
+  left: expression(this.parentNode.offsetWidth-31+'px');
+}
+
+.Sheet-tr div
+{
+  background: none;
+  behavior: expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + GetStyleUrl()+"images/Sheet-s.png',sizingMethod='crop')");
+}
+
+.Sheet-bl
+{
+  font-size: 1px;
+  top: expression(this.parentNode.offsetHeight-31+'px');
+}
+
+.Sheet-bl div
+{
+  background: none;
+  behavior: expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + GetStyleUrl()+"images/Sheet-s.png',sizingMethod='crop')");
+}
+
+.Sheet-br
+{
+  font-size: 1px;
+  top: expression(this.parentNode.offsetHeight-31+'px');
+  left: expression(this.parentNode.offsetWidth-31+'px');
+}
+
+.Sheet-br div
+{
+  background: none;
+  behavior: expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + GetStyleUrl()+"images/Sheet-s.png',sizingMethod='crop')");
+}
+
+.Sheet-tc
+{
+  font-size: 1px;
+  width: expression(this.parentNode.offsetWidth-62+'px');
+}
+
+.Sheet-tc div
+{
+  font-size: 1px;
+  background: none;
+  behavior: expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + GetStyleUrl()+"images/Sheet-h.png',sizingMethod='crop')");
+}
+
+.Sheet-bc
+{
+  font-size: 1px;
+  top: expression(this.parentNode.offsetHeight-31+'px');
+  width: expression(this.parentNode.offsetWidth-62+'px');
+}
+
+.Sheet-bc div
+{
+  font-size: 1px;
+  background: none;
+  behavior: expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + GetStyleUrl()+"images/Sheet-h.png',sizingMethod='crop')");
+}
+
+.Sheet-cl
+{
+  font-size: 1px;
+  height: expression(this.parentNode.offsetHeight-62+'px');
+}
+
+.Sheet-cl div
+{
+  font-size: 1px;
+  background: none;
+  behavior: expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + GetStyleUrl()+"images/Sheet-v.png',sizingMethod='crop')");
+}
+
+.Sheet-cr
+{
+  font-size: 1px;
+  left: expression(this.parentNode.offsetWidth-31+'px');
+  height: expression(this.parentNode.offsetHeight-62+'px');
+}
+
+.Sheet-cr div
+{
+  font-size: 1px;
+  background: none;
+  behavior: expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + GetStyleUrl()+"images/Sheet-v.png',sizingMethod='crop')");
+}
+
+.Sheet-cc
+{
+  font-size: 1px;
+  width: expression(this.parentNode.offsetWidth-62+'px');
+  height: expression(this.parentNode.offsetHeight-62+'px');
+  background: none;
+  behavior: expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + GetStyleUrl()+"images/Sheet-c.png',sizingMethod='scale')");
+}
+
+
+/* end Box, Sheet */
+
+/* begin Menu */
+
+.artmenu, .artmenu ul
+{
+  height: 1%;
+}
+
+.artmenu li.artmenuhover
+{
+  z-index: 10000;
+}
+
+.artmenu .artmenuhoverUL
+{
+  visibility: visible;
+}
+
+.artmenu .artmenuhoverUL
+{
+  top: 100%;
+  left: 0;
+}
+
+.artmenu .artmenuhoverUL .artmenuhoverUL
+{
+  top: 0;
+  left: 100%;
+}
+
+.artmenu ul a
+{
+  height: 1%;
+}
+
+.artmenu li li
+{
+  float: left;
+  width: 100%;
+}
+
+.artmenu .artmenuhoverUL .artmenuhoverUL
+{
+  top: 5px;
+  left: 100%;
+}
+
+.artmenu, .artmenu ul
+{
+  height: 1%;
+}
+
+.artmenu li.artmenuhover
+{
+  z-index: 10000;
+}
+
+.artmenu .artmenuhoverUL
+{
+  visibility: visible;
+}
+
+.artmenu .artmenuhoverUL
+{
+  top: 100%;
+  left: 0;
+}
+
+.artmenu .artmenuhoverUL .artmenuhoverUL
+{
+  top: 0;
+  left: 100%;
+}
+
+.artmenu ul a
+{
+  height: 1%;
+}
+
+.artmenu li li
+{
+  float: left;
+  width: 100%;
+}
+
+
+.nav
+{
+  zoom: 1;
+}
+
+
+.nav .l
+{
+  width: expression(this.parentNode.offsetWidth-0+'px');
+}
+
+
+.nav .r
+{
+  left: expression(this.parentNode.offsetWidth-0+'px');
+}
+
+
+.nav .r div
+{
+  left: expression(this.parentNode.offsetWidth-998+'px');
+}
+
+
+.nav .l, .nav .r div
+{
+  font-size: 1px;
+  background: none;
+  behavior: expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + GetStyleUrl()+"images/nav.png',sizingMethod='crop')");
+}
+
+/* end Menu */
+
+/* begin MenuItem */
+
+.artmenu a , .artmenu a span
+{
+  float: left;
+}
+
+
+.artmenu a span span
+{
+  display: inline;
+}
+
+
+
+
+.artmenu .artmenuhover .artmenuhoverA span span
+{
+  color: #EDEDED;
+  background-position: left -25px;
+}
+
+/* end MenuItem */
+
+/* begin MenuSeparator */
+.nav .separator
+{
+  font-size: 1px;
+  zoom:1;
+}
+/* end MenuSeparator */
+
+/* begin MenuSubItem */
+
+.artmenu ul a
+{
+  color: #1C4E69 !important;
+}
+
+.artmenu ul a:hover {
+  color: #000000 !important;
+}	
+
+.artmenu ul .artmenuhover .artmenuhoverA
+{
+  color: #000000 !important;
+  border-color: #E0E0E0;
+  background-position: 0 -15px;
+}
+
+.nav .artmenu ul a:hover span, .nav .artmenu ul a:hover span span
+{
+  color: #000000 !important;
+}	
+
+.nav .artmenu ul .artmenuhover .artmenuhoverA span, .nav .artmenu ul .artmenuhover .artmenuhoverA span span
+{
+  color: #000000 !important;
+}
+
+/* end MenuSubItem */
+
+/* begin Box, Block */
+
+.Block
+{
+  zoom: 1;
+}
+
+
+
+/* end Box, Block */
+
+/* begin BlockHeader */
+
+.BlockHeader
+{
+  zoom: 1;
+}
+
+
+.BlockHeader .l
+{
+  width: expression(this.parentNode.offsetWidth-0+'px');
+}
+
+
+.BlockHeader .r
+{
+  left: expression(this.parentNode.offsetWidth-0+'px');
+}
+
+
+.BlockHeader .r div
+{
+  left: expression(this.parentNode.offsetWidth-998+'px');
+}
+
+.BlockHeader .l, .BlockHeader .r div
+{
+  font-size: 1px;
+}
+
+
+.BlockHeader .l, .BlockHeader .r div
+{
+  background: none;
+  behavior: expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + GetStyleUrl()+"images/BlockHeader.png',sizingMethod='crop')");
+}
+
+
+.header-tag-icon
+{
+  background: none;
+  behavior: expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + GetStyleUrl()+"images/BlockHeaderIcon.png',sizingMethod='crop')");
+}
+
+/* end BlockHeader */
+
+/* begin Box, BlockContent */
+
+.BlockContent
+{
+  zoom: 1;
+}
+
+
+
+
+.BlockContent-body ul li
+{
+  height:1%;
+  background:none;
+  behavior: expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + GetStyleUrl()+"images/BlockContentBullets.png',sizingMethod='crop')");
+}
+
+/* end Box, BlockContent */
+
+/* begin Box, Post */
+
+.Post
+{
+  zoom: 1;
+}
+
+
+
+/* end Box, Post */
+
+/* begin PostContent */
+h1
+{
+  margin: 0.67em 0;
+}
+
+h2
+{
+  margin: 0.8em 0;
+}
+
+h3
+{
+  margin: 1em 0;
+}
+
+h4
+{
+  margin: 1.25em 0;
+}
+
+h5
+{
+  margin: 1.67em 0;
+}
+
+h6
+{
+  margin: 2.33em 0;
+}
+/* end PostContent */
+
+/* begin PostBullets */
+
+.Post ul li
+{
+  height:1%;
+  background:none;
+  behavior: expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + GetStyleUrl()+"images/PostBullets.png',sizingMethod='crop')");
+}
+
+/* end PostBullets */
+
+/* begin PostQuote */
+
+blockquote
+{
+  height:1%;
+  background-image: none;
+  behavior: expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + GetStyleUrl()+"images/PostQuote.png',sizingMethod='crop')");
+}
+
+/* end PostQuote */
+
+/* begin Button */
+button.Button, a.Button
+{
+  display:list-item;
+  list-style-type:none;
+  float:left;
+}
+
+.Button, .Button .btn
+{
+  font-size: 1px;
+}
+
+
+.Button .r
+{
+  font-size: 1px;
+  left: expression(this.parentNode.offsetWidth-14+'px');
+}
+
+
+.Button .r span
+{
+  font-size: 1px;
+  left: expression(this.parentNode.offsetWidth-417+'px');
+}
+
+
+.Button .l
+{
+  font-size: 1px;
+  width: expression(this.parentNode.offsetWidth-14+'px');
+}
+
+
+.Button .l, .Button .r span
+{
+  background: none;
+  behavior: expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + GetStyleUrl()+"images/Button.png',sizingMethod='crop')");
+}
+
+/* end Button */
+
+/* begin Footer */
+
+.Footer .Footer-background
+{
+  top: expression(this.parentNode.offsetHeight-100+'px');
+  background: none;
+  behavior: expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + GetStyleUrl()+"images/Footer.png',sizingMethod='crop')");
+  zoom: 1;
+  font-size:1px;
+}
+
+
+.rss-tag-icon
+{
+  zoom:1;
+  font-size:1px;
+  background:none;
+  behavior: expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + GetStyleUrl()+"images/rssIcon.png',sizingMethod='crop')");
+}
+
+/* end Footer */
+
+
+
+.commentlist, .commentlist li
+{
+    behavior: expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="");
+}
+
+#tabs {
+	float:left;
+	width:100%;
+	font-size:93%;
+	line-height:normal;
+	}
+
+#tabs ul {
+	margin:0;
+	padding:0px 0px 0 0px;
+	list-style:none;
+	}
+
+#tabs li {
+	display:inline;
+	margin:0;
+	padding:0;
+	}
+
+#tabs a {
+	float:left;
+	background:url("tableft.gif") no-repeat left top;
+	margin:0;
+	padding:0 0 0 0px;
+	text-decoration:none;
+	}
+
+#tabs a span {
+	float:left;
+	display:block;
+	background:url("tabright.gif") no-repeat right top;
+	padding:5px 15px 4px 6px;
+	color:#FFF;
+	}
+
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#tabs a span {float:none;}
+
+/* End IE5-Mac hack */
+#tabs a:hover span {
+	color:#FFF;
+	}
+
+#tabs a:hover {
+	background-position:0% -42px;
+	}
+
+#tabs a:hover span {
+	background-position:100% -42px;
+	}
+
+#qlink1,#qlink1 a{background-color:#0B610B}#qlink2,#qlink2 a{background-color:#0404B4}#qlink3,#qlink3 a{background-color:#8C0101}#qlink4,#qlink4 a{background-color:#108082}#qlink5,#qlink5 a{background-color:#868A08}#qlink6,#qlink6 a{background-color:#FB0303}#qlink7,#qlink7 a{background-color:#FB5E03}#qlink8,#qlink8 a{background-color:#0080FF}#qlink1 a,#qlink2 a,#qlink3 a,#qlink4 a,#qlink5 a,#qlink6 a,#qlink7 a,#qlink8 a,#qlink9 a{text-decoration:none}#qlink9,#qlink9 a{background-color:#B542DF}#qlink1,#qlink1 a,#qlink2,#qlink2 a,#qlink3,#qlink3 a,#qlink4,#qlink4 a,#qlink5 a,#qlink6,#qlink6 a,#qlink7,#qlink7 a,#qlink8,#qlink8 a,#qlink9,#qlink9 a{height:60px;width:245px;font-size:x-large;color:#fff;font-weight:700}#qlink5{height:60px;width:245px;font-size:x-large;color:#fff;font-weight:700}
+
+.sqlink1,.sqlink1 a{height:35px;width:90px;background-color:#0B610B}.sqlink1 a,.sqlink2 a,.sqlink3 a,.sqlink4 a,.sqlink5 a,.sqlink6 a{text-decoration:none}.sqlink1,.sqlink1 a{font-size:small;color:#fff;font-weight:700}.sqlink2,.sqlink2 a{height:35px;width:90px;background-color:#0404B4;font-size:small;color:#fff;font-weight:700}.sqlink3,.sqlink3 a{height:35px;width:80px;background-color:#8C0101}.sqlink3,.sqlink3 a{font-size:small;color:#fff;font-weight:700}.sqlink4,.sqlink4 a{height:35px;width:80px;background-color:#108082;font-size:small;color:#fff;font-weight:700}.sqlink5,.sqlink5 a{height:35px;width:70px;background-color:#868A08}.sqlink5,.sqlink5 a{font-size:small;color:#fff;font-weight:700}.sqlink6,.sqlink6 a{height:35px;width:75px;background-color:#592466;font-size:small;color:#fff;font-weight:700}.sqlinkln{border-bottom:1px solid #5fe2da}
+
+.edtitl {
+ margin-bottom:10px;
+ color:#000080;
+ font-weight: bold;
+}
+.edthr {
+  border: 1px solid #000000;
+}
+.edtbl {
+  color:#000000; border: 2px solid #006699;border-collapse: collapse; min-width:550px; max-width:790px;
+}
+.edtbtr {
+border: 1px solid #000000; background-color: #adadad;color: #800000;
+}
+.latsec{margin-bottom:10px;color:#000080;font-weight:bold}.lattbl{padding:2px;width:790px;color:#000000;border:2px solid #006699;border-collapse:collapse;table-layout:fixed}.lattra{border:1px solid #000000;background-color:#adadad;color:#800000;width:790px}.lattrbord{border:1px solid #000000}.latcpa{width:70px}.latcea,.latcqa{width:200px}.latcaa,.latcla,.latcma{width:80px}.latcpb{width:70px}.latceb,.latcqb{width:180px}.latcab,.latclb,.latcmb{width:80px}.latcr{width:90px}.latcaa,.latcab,.latcea,.latceb,.latcla,.latclb,.latcma,.latcmb,.latcpa,.latcpb,.latcqa,.latcqb,.latcr{word-wrap:break-word;font-size:13px;border:1px solid #000000}
